@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+ @plugin "daisyui" {
+   themes: light --default
+ }
+
+ @theme {
+  --color-vetlinex: #52b5f2
+ }
+
+ 
