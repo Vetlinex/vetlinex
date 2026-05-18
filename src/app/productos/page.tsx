@@ -12,10 +12,7 @@ export default function VeterinaryCatalog() {
   const filteredProducts =
     selectedCategory === "Todos" ? products : products.filter((p) => p.category === selectedCategory)
 
-  const handleMoreInfo = (productId: number) => {
-    console.log(`More info requested for product ${productId}`)
-    // Add your navigation or modal logic here
-  }
+ 
 
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8">
